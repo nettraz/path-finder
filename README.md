@@ -15,7 +15,7 @@ Run the jar file without any arguments:
 ```bash
 java -jar target/path-finder-1.0-SNAPSHOT.jar
 ```
-Run the jar file with the following arguments <path-to-graph-file>, <start-node>, <end-node>
+Run the jar file with the following arguments **path-to-graph-file**, **start-node**, **end-node**
 ```bash
 java -jar target/path-finder-1.0-SNAPSHOT.jar "src/main/resources/scenarios/graph-2.txt" "A" "G""
 ```
@@ -26,6 +26,6 @@ Total distance: 7
 ```
 or:
 ```bash
-Couldn't find path from node A to node H
+Could not find path from node A to node H
 Total distance: -1
 ```
